@@ -29,8 +29,6 @@ function App() {
 		setPoints(newPoints);
 	}
 
-	console.log(Math.max(...points));
-
 	return (
 		<main className="App">
 			<h1>Random anecdotes</h1>
